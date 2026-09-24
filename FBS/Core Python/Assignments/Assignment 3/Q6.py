@@ -1,8 +1,10 @@
-#check uppercase or lower
-ch=input('Enter Character :')
-if ch.isupper():
-    print('Character is in uppercase')
-elif ch.islower():
-    print('Character is Lowercase')
+#Profit or loss
+costp=int(input('Enter Cost Price :'))
+sellingp=int(input('Enter selling Price :'))
+if(costp>sellingp):
+    loss=costp-sellingp
+    print(f'Loss of rs :{loss}')
 else:
-    print('Charater not supported')
+    profit=sellingp-costp
+
+    print(f'Profit of rs :{profit}')

@@ -1,6 +1,8 @@
-#check leap year or not
-year=int(input('Enter Year to Check :'))
-if(year%4 or year%400 or year%100):
-    print('Year is Leap Year')
+#Triangle Comparision 
+angle1=int(input('Enter Angle 1 :'))
+angle2=int(input('Enter Angle 2 :'))
+angle3=int(input('Enter Angle 3 :'))
+if(angle1+angle2+angle3==180):
+    print('It is a Triangle')
 else:
-    print('Not a leap Year')
+    print('Not a Triangle')
